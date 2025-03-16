@@ -51,6 +51,17 @@ background-position: center 80px;
     margin-left: 350px;
     font-weight: bold;
 }
-.btn-profile-edit-btn
+.btn-profile-edit-btn{
+    
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    top: -290px;
+    margin-left: 590px;
+}
 
 
