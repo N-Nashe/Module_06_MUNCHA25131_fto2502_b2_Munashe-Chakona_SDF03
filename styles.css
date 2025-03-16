@@ -222,6 +222,39 @@ background-position: center 80px;
       gap: 1rem;
     }
   }
+  @media (max-width: 400px) {
+    body {
+      padding: 0;
+    }
+    .profile {
+      grid-template-rows: 1fr;
+      grid-template-columns: 150px 1fr;
+    }
+  
+    .profile-user-name {
+      font-size: clamp(1rem, 2rem, 3rem);
+    }
+    .profile-stats li,
+    .profile-bio {
+      font-size: 1rem;
+    }
+    .profile-image img {
+      flex-shrink: 0;
+    }
+  
+    .gallery-item-info {
+      font-size: 1rem;
+    }
+  
+    .profile-user-settings {
+      font-size: 1rem;
+    }
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
   
   
   
