@@ -204,6 +204,24 @@ background-position: center 80px;
       gap: 1rem;
     }
   }
+  @media (max-width: 600px) {
+    .gallery {
+      gap: 5px;
+    }
+    .profile {
+      grid-template-rows: 1fr;
+      grid-template-columns: 150px 1fr;
+      font-size: clamp(1.5rem, 2.5rem, 3rem);
+    }
+  
+    .profile-user-name {
+      font-size: clamp(2.5rem, 4rem, 5rem);
+    }
+  
+    .profile-stats > ul {
+      gap: 1rem;
+    }
+  }
   
   
   
