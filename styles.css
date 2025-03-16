@@ -183,6 +183,27 @@ background-position: center 80px;
       font-size: clamp(2rem, 3rem, 4rem);
     }
   }
+  @media (max-width: 900px) {
+    .gallery {
+      gap: 10px;
+    }
+  
+    .profile {
+      font-size: clamp(2rem, 2.5rem, 3rem);
+    }
+  
+    .profile-image {
+      margin-right: 0;
+    }
+  
+    .profile-user-name {
+      font-size: clamp(3rem, 4rem, 5rem);
+    }
+  
+    .profile-stats > ul {
+      gap: 1rem;
+    }
+  }
   
   
   
