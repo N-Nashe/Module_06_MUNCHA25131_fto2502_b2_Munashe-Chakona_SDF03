@@ -77,5 +77,28 @@ background-position: center 80px;
 }
 
 
+.profile-stats {
+    display: flex; 
+    gap: -20px; 
+    font-size: 14px;
+    position: relative;
+    top: -200px; 
+   
+}
+
+.profile-stat-count{
+    font-weight: 600;
+    position: relative; 
+    margin-left: 350px;
+    ;
+
+
+}
+    
+
+
+
+
+
 
 
