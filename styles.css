@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans, Arial, sans-serif;"
     min-height: 100vh;
     background-color: #fafafa;
     color: #262626;
@@ -33,7 +33,7 @@ img {
 .profile-image{
 width:330px ;
 height: 330px;
-border: 10px solid rgb(4, 64, 4);
+border: 10px solid rgb(16, 109, 64);
 border-radius:80% ;
 object-fit:cover ;
 overflow: hidden;
@@ -46,7 +46,7 @@ background-position: center 80px;
     font-size: 2.5rem;
     position: relative;
     font-weight: normal;
-    top: -250px;
+    top: -300px;
     margin-right: 4px;
     margin-left: 350px;
     font-weight: bold;
@@ -60,29 +60,32 @@ background-position: center 80px;
     cursor: pointer;
     font-size: 1.5rem;
     position: relative;
-    top: -290px;
+    top: -340px;
     margin-left: 590px;
 }
 
 .btn-profile-settings-btn{
-    border: 1px solid #000000;
+    border: 1px solid #f1eeee;
     border-radius: -0.1px;
     font-weight: bold;
     background-color: #ffffff;
     cursor: pointer;
     font-size: 1.5rem;
     position: relative;
-    top: -313px;
-    margin-left: 711px;
+    top: -340px;
+    margin-left: 30px;
 }
 
 
 .profile-stats {
     display: flex; 
-    gap: -20px; 
+    gap: 1px; 
     font-size: 14px;
     position: relative;
-    top: -200px; 
+    top: -280px;
+    width: calc(2% 1rem);
+    margin-left: 70px;
+    
    
 }
 
@@ -90,10 +93,18 @@ background-position: center 80px;
     font-weight: 600;
     position: relative; 
     margin-left: 350px;
-    ;
-
-
+    
 }
+
+.profile-bio
+{
+    font-size: 1.5rem;
+    position: relative;
+    top: -220px;
+    margin-left: 350px;
+    margin-right: 4px;
+    font-weight: normal;
+} 
     
 
 
