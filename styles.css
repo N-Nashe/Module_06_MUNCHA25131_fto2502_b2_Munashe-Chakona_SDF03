@@ -172,6 +172,17 @@ background-position: center 80px;
     visibility: visible;
     cursor: pointer;
   }
+  @media (max-width: 1200px) {
+    .gallery {
+      gap: 15px;
+    }
+  
+    .profile {
+      grid-template-columns: auto 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      font-size: clamp(2rem, 3rem, 4rem);
+    }
+  }
   
   
   
