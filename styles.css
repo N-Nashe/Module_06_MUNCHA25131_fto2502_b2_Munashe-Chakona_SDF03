@@ -64,4 +64,16 @@ background-position: center 80px;
     margin-left: 590px;
 }
 
+.btn-profile-settings-btn{
+    border: 1px solid #000000;
+    border-radius: -0.1px;
+    font-weight: bold;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+    top: -313px;
+    margin-left: 711px;
+}
+
 
